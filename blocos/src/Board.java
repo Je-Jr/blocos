@@ -52,7 +52,7 @@ public class Board extends JPanel implements ActionListener {
     timer = new Timer(10, this);
     timer.start();
 
-    //
+    // Chama o método para criar blocos
     addSquare(5, 2, Color.WHITE);
     addSquare(2, 5, Color.RED);
     addSquare(8, 8, Color.MAGENTA);
