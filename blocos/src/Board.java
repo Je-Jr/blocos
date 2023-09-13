@@ -61,11 +61,6 @@ public class Board extends JPanel implements ActionListener {
     addSquare(8, 8, Color.PINK);
     addSquare(8, 8, Color.YELLOW);
     addSquare(8, 8, Color.BLUE);
-
-    for (int i = 0; i < 20; i++) {
-      System.out.println(randomNumber());
-    }
-
   }
 
   /**
